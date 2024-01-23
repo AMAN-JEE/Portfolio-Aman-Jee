@@ -647,3 +647,108 @@ footer {
   display: flex;
   gap: 3em;
 }
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav ul {
+    padding: 0 2em;
+    gap: 1rem;
+  }
+
+  .heroSection {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .infoContainer {
+    width: 100%;
+  }
+
+  .fadedText {
+    font-size: 4em;
+    bottom: -12%;
+  }
+
+  .userImage {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .projectTitle {
+    font-size: 60px;
+    line-height: 50px;
+    padding: 30px 0 20px;
+  }
+
+  .projectContainer {
+    gap: 60px;
+  }
+
+  .projectCard {
+    width: 100%;
+    height: 400px;
+  }
+
+  .projectContent {
+    bottom: 10%;
+  }
+
+  .projectNumber {
+    font-size: 120px;
+  }
+
+  .projectHeading {
+    font-size: 30px;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+
+  .projectSubHeading {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .skillContainer {
+    padding: 3rem;
+    margin: 5rem auto;
+  }
+
+  .leftSkillContainer,
+  .rightSkillContainer {
+    width: 100%;
+  }
+
+  .skillsLogo {
+    width: 70px;
+  }
+
+  .skillFadedText {
+    font-size: 8em;
+    right: 5%;
+    bottom: -20%;
+  }
+
+  .contactMeSection h2 {
+    font-size: 3em;
+    padding-top: 1rem;
+  }
+
+  .contactUsForm form {
+    max-width: 400px;
+  }
+}
